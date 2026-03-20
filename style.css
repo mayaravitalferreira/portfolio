@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.hero{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    color: #a78bfa;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.projeto {
+    margin-top: 20px;
+    border-left: 3px solid #8b5cf6;
+    padding-left: 15px;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills span {
+    border: 1px solid #8b5cf6;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
